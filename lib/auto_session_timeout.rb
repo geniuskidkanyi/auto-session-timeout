@@ -32,7 +32,7 @@ module AutoSessionTimeout
 
   def render_session_timeout
     flash[:danger] = "Your session has timed out."
-    redirect_to "/session"
+    redirect_to "/sign_in"
   end
 
 end
